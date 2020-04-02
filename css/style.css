@@ -1,0 +1,29 @@
+.mapdiv{
+    width: 29%;
+}
+
+.map{
+    width: 29%;
+}
+
+.area_machu{
+    width: 100%;
+}
+
+.div-tooltip{
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #444;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px;
+    z-index: 99999;
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+.hover-reveal:hover .div-tooltip {
+    display: block;
+}
